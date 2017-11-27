@@ -1,0 +1,44 @@
+server:
+  port: ${PORT:8888}
+  
+spring:  
+  application:
+    name: auth     
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/posdes01
+    username: gct
+    password: gct
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    properties:
+      format-sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: admin
+    password: 123
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+        ssl:
+          trust: true  
+  redis:
+    host: localhost
+    password: secret
+    port: 6379
+    
+eureka:
+  client:
+    enabled: true
+  instance:
+    prefer-ip-address: true
+    
+         
+
+      
+         
+ 
