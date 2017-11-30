@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
 import br.com.oauth.criteria.UsuarioCriteria;
 import br.com.util.entity.AcessoGrupo;
 import br.com.util.repository.AcessoGrupoRepository;
+import br.com.util.service.GenericService;
 
 @Service
 public class GrupoService extends GenericService<AcessoGrupo, Integer>{

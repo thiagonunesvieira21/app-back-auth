@@ -10,6 +10,7 @@ import br.com.util.entity.AcessoGrupo;
 import br.com.util.entity.AcessoGrupoFuncionalidade;
 import br.com.util.entity.AcessoGrupoFuncionalidadeId;
 import br.com.util.repository.AcessoGrupoFuncionalidadeRepository;
+import br.com.util.service.GenericService;
 
 @Service
 public class GrupoFuncionalidadeService extends GenericService<AcessoGrupoFuncionalidade, AcessoGrupoFuncionalidadeId> {
