@@ -30,6 +30,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.oauth.service.AcessoUsuarioService;
+import br.com.oauth.service.EmailService;
 import br.com.util.controller.UtilController;
 import br.com.util.entity.AcessoHistoricoSenha;
 import br.com.util.entity.AcessoUsuario;
@@ -39,7 +40,6 @@ import br.com.util.json.bean.CadastrarUsuario;
 import br.com.util.json.bean.TrocarSenha;
 import br.com.util.json.bean.UpdateUsuario;
 import br.com.util.security.SecurityUser;
-import br.com.util.service.EmailService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

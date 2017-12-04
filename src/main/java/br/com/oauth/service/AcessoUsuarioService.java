@@ -25,7 +25,6 @@ import br.com.util.security.SecurityUser;
 import br.com.util.security.TokenAuthenticationService;
 import br.com.util.security.UserAuthentication;
 import br.com.util.security.UserService;
-import br.com.util.service.EmailService;
 import br.com.util.service.GenericService;
 
 @Service
