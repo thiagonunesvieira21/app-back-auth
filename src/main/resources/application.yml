@@ -6,11 +6,12 @@ spring:
     name: auth     
   datasource:
     driver-class-name: org.postgresql.Driver
+    platform: postgresql
     url: jdbc:postgresql://localhost:5432/posdes01
     username: gct
     password: gct
   jpa:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
     show-sql: true
     properties:
       format-sql: true
